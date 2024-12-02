@@ -1,7 +1,7 @@
 # complete code for Tic Tac Toe game
 # tic tac toe game
 player1 = input("Player 1, choose X or O: ")
-if player1 == "x":
+if player1 == "x" or player1 == "X":
     player2 = "O"
     player1 = "X"
 else:
